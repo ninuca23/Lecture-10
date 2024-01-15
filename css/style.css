@@ -41,9 +41,6 @@ nav a {
     cursor: pointer;
 }
 
-.fa-bars:hover {
-    transform: rotate(-45deg);}
-
 
 .main {
     margin-top: 18px;
