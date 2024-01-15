@@ -1,0 +1,144 @@
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.container2 {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.myflex {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 500px;
+}
+
+nav ul {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    font-family: Helvetica;
+    font-size: 17px;
+    color:#636060;
+}
+
+
+.fa-bars {
+    display: none;
+    cursor: pointer;
+}
+
+.fa-bars:hover {
+    transform: rotate(-45deg);}
+
+
+.main {
+    margin-top: 18px;
+    gap: 31px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 606px;
+    background-image: url(../images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+  }
+  
+  .flex1 {
+    font-family: Helvetica;
+    font-size: 79px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .flex2 {
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  
+  /* section cards */
+  
+  .services {
+    display: flex;
+    gap: 33px;
+    flex-wrap: wrap;
+    margin-bottom: 400px;
+  }
+  
+  .service {
+    display: flex;
+    flex-direction: column;
+    width: 235px;
+    height: 115px;
+    margin: 100px 83px 0px 0px;
+  }
+  
+  .service h4 {
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    color: #636060;
+  }
+  
+  .service h1 {
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    color: #010101;
+    margin-top: 9px;
+  }
+  
+  .service p {
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    color: #636060;
+    margin-top: 37px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 286px;
+    height: 195px;
+    margin-top: 84px;
+  }
+  
+  .card h1 {
+    margin-top: 23px;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    color: #343232;
+   
+  }
+  
+  .card p {
+    margin-top: 9px;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    color: #636060;
+  }
+  
+  .card2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 56px 0 0 350px;
+    gap: 33px;
+  }
+
