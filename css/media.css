@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media (max-width: 1230px) {
     .container {
         width: 95%;
@@ -8,8 +15,13 @@
 
 @media  (max-width: 1200px) {
     .services {
-        align-items: center;
-        justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+                
 
     }
 
@@ -18,19 +30,32 @@
 @media  (max-width: 1200px) {
     .service {
         margin: 100px 50px 0 0;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+               
 
     }
 
 }
 
+@media  (max-width: 1200px) {
+    .card {
+        margin-bottom: 30px;
+    }
+
+}
 
 
 @media  (max-width: 1200px) {
     .card2 {
         margin-left: 0px;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 
 }
@@ -55,9 +80,16 @@
     .main {
         width: 100%;
         background-position: center;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 }
 
@@ -75,7 +107,7 @@
 
 @media (max-width: 550px) {
     .flex1 {
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
@@ -91,4 +123,3 @@
         font-size: 10px;
     }
 }
-

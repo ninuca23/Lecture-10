@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 .container {
     max-width: 1300px;
@@ -14,9 +21,17 @@
 
 .myflex {
    
+    display: -webkit-box;
+   
+    display: -ms-flexbox;
+   
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 nav {
@@ -25,8 +40,14 @@ nav {
 
 nav ul {
     
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 nav a {
@@ -45,14 +66,25 @@ nav a {
 .main {
     margin-top: 18px;
     gap: 31px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 606px;
     background-image: url(../images/Rectangle\ 1.png);
     background-repeat: no-repeat;
   }
+
+
   
   .flex1 {
     font-family: Helvetica;
@@ -71,15 +103,23 @@ nav a {
   /* section cards */
   
   .services {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 33px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-bottom: 400px;
   }
   
   .service {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 235px;
     height: 115px;
     margin: 100px 83px 0px 0px;
@@ -108,8 +148,13 @@ nav a {
     margin-top: 37px;
   }
   .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 286px;
     height: 195px;
     margin-top: 84px;
@@ -133,9 +178,11 @@ nav a {
   }
   
   .card2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin: 56px 0 0 350px;
     gap: 33px;
   }
-
